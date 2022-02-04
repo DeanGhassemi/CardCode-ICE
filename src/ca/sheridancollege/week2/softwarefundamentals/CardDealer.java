@@ -18,7 +18,7 @@ public class CardDealer
         Card fourHearts = new Card("Hearts", 4);
         fourHearts.setSuit("diamonds");
         String fhSuit = fourHearts.getSuit();
-        String fhVal = fourHearts.getValue();
+        int fhVal = fourHearts.getValue();
         System.out.println("Suit: " + fhSuit + "\nValue: " + fhVal);
         
     }
