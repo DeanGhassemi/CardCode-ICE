@@ -20,6 +20,7 @@ public class CardDealer
         String fhSuit = fourHearts.getSuit();
         int fhVal = fourHearts.getValue();
         System.out.println("Suit: " + fhSuit + "\nValue: " + fhVal);
+        Card fourClubs = new Card("Clubs", 4);
         
     }
 }
